@@ -5,7 +5,7 @@ import java.util.Scanner;
 class BubbleSort{
     public static void bubble(int[]arr){
         for(int i=0;i< arr.length;i++){
-            for(int j=0;j< arr.length-1;j++){
+            for(int j=0;j< arr.length-i-1;j++){//we add (-i) because we doesnt want to check the last sorted value again and and again
                 if(arr[j]>arr[j+1]) {
                     swap(arr,j);
                 }
