@@ -36,5 +36,5 @@ public class Linearsearch
         return -1;
     }
     }
-//git remote add origin https://<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>@github.com/<hari1vkp>/<https://github.com/hari1vkp/javapractice.git>.git
+//git remote add origin https://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@github.com//hari1vkp/javapractice.git
 

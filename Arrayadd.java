@@ -2,17 +2,17 @@ package scratch1;
 import java.util.Scanner;
 import  java.util.Random;
 
-public class Arrayadd {
+public class Arrayadd{
     public static void main(String[] args) {
         System.out.println("enter a size of an array");
         Scanner scan=new Scanner(System.in);
         int i= scan.nextInt();
         int[]arr=new int[i];
         Random ram=new Random();
-
+        System.out.println("enter elements");
         for(int h=0;h<i;h++){
-            arr[h]=ram.nextInt(i);
-            System.out.println(" "+arr[h]);
+            arr[h]=scan.nextInt();
+
         }
         int add=0;
         for(int h=0;h<i;h++){
@@ -22,3 +22,4 @@ public class Arrayadd {
         System.out.println(add);
     }
 }
+

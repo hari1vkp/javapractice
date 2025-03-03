@@ -12,6 +12,11 @@ class Selectionsorting{
                }
            }
           swap(arr,count,i);
+           System.out.println();
+           for (int k = 0; k < arr.length ; k++) {
+
+               System.out.print(" "+arr[k]);
+           }
        }
    }
     public static void swap(int[]arr,int j,int i){
